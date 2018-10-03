@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+/* Global */
+.container{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+}
+
+header{
+    background: white;
+    padding-left: 30px;
+    min-height: 20px;
+    border-bottom: black solid 3px;
+}
+
+header a{
+    color:black;
+    text-decoration:none;
+    text-transform: uppercase;
+    text-weight: bold;
+    font-size:16px;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+header li{
+    float:right;
+    display: inline;
+    font-weight: bold;
+    font-family: monospace;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header nav{
+    margin-top: 50px;
+}
+
+header a:hover{
+    color: goldenrod;
+    font-weight: bold;
+}
+
+section .highlight, section .current h1{
+    color: goldenrod   
+}
+
+/* Showcase */
+#showcase{
+    min-height:500px;
+    background:url('../images/Postpile.jpg') no-repeat 0 -400px;
+    padding: 20px 0 20px 0;
+    text-align:center;
+    color: white;
+}
+#showcase h1{
+    margin-top: 100px;
+    color: white;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 25px;
+    color: white;
+}
+
+#blankspace{
+    padding: 15px;
+    color: black;
+    background: white;
+}
+#blankspace p{
+    text-align:center;
+    font-size: 15px;
+}
+
+#boxphotos img{
+    margin-bottom: 40px;
+}
